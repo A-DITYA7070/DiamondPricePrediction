@@ -5,9 +5,11 @@ This project uses ml techniques to predict diamond prices based on attributes li
 A custom multiple regression models like linear regression, lasso, ridge, elastic net, desicion tree etc is developed and trained
 on a dataset containing diamond characteristics and a best model is selected to forecast the prices.
 
-Install the required dependecies using :- pip install -r requirements.txt
+Install the required dependecies using :- 
+`pip install -r requirements.txt`
 
-Run the app using :- python app.py
+Run the app using :- 
+`python app.py`
 
 Preview the application in localhost envirnoment :- http://localhost:5000/
 
