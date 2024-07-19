@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    margin: 0;
+    padding: 20px;
+    color: #e0e0e0; /* Default text color */
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Darker background for the form */
+    border: 1px solid #2c2c2c; /* Slightly lighter border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Darker shadow for contrast */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffa726; /* Warm orange color */
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333333; /* Dark border for inputs */
+    border-radius: 4px;
+    background-color: #2c2c2c; /* Darker background for inputs */
+    color: #e0e0e0; /* Text color for inputs */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7043; /* Warm orange color */
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Button shadow */
+}
+
+input[type="submit"]:hover {
+    background-color: #f4511e; /* Darker warm orange color */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #ffa726; /* Warm orange color */
+}
